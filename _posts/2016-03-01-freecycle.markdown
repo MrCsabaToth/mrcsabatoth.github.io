@@ -3,7 +3,7 @@ layout: default
 modal-id: 1
 date: 2016-03-01
 thumbnail: freecycle.png
-img: freecycle1.jpg
+img: freecycle.jpg
 alt: image-alt
 title: FreeCycle
 subtitle: TAKE STUFF. BRING STUFF. WASTE LESS!
