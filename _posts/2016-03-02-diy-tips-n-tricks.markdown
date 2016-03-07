@@ -1,6 +1,6 @@
 ---
 layout: default
-modal-id: 5
+modal-id: 2
 date: 2016-03-05
 thumbnail: lightbulb.png
 img: diy.jpg
