@@ -1,7 +1,7 @@
 ---
 layout: default
 modal-id: 2
-date: 2016-03-05
+date: 2016-03-02
 thumbnail: lightbulb.png
 img: diy.jpg
 alt: image-alt

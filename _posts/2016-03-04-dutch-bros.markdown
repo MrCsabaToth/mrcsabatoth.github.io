@@ -1,7 +1,7 @@
 ---
 layout: default
 modal-id: 4
-date: 2016-03-03
+date: 2016-03-04
 thumbnail: beer.png
 img: dutchbros.jpg
 alt: image-alt
