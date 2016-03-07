@@ -3,7 +3,7 @@ title: Earth Day
 email: bweinman@csufresno.edu
 url: https://mrcsabatoth.github.io
 description: "Earth Day 2016 @Fresno State, Memorial Garden: south of Kennel Bookstore, Wednesday, 4.20.2016, 10:00 am - 2:00 pm"
-skills: "@Fresno State Memorial Garden - 4.20.2016, 10:00 am - 2:00 pm"
+skills: "<a href="https://www.google.com/maps/place/36%C2%B048'44.7%22N+119%C2%B044'51.5%22W/@36.8123925,-119.7481271,218m/data=!3m1!1e3!4m2!3m1!1s0x0:0x0" target="_blank">@Fresno State Memorial Garden</a> - 4/20/2016, 10:00am - 2:00pm"
 meta_author: Eart Day
 
 # Google webmaster tools
@@ -45,8 +45,8 @@ social:
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: <a href="https://www.google.com/maps/place/36%C2%B048'44.7%22N+119%C2%B044'51.5%22W/@36.8123925,-119.7481271,218m/data=!3m1!1e3!4m2!3m1!1s0x0:0x0" target="_blank">Memorial Park @Fresno State</a>
-  - line: <a href="https://www.google.com/maps/place/36%C2%B048'44.7%22N+119%C2%B044'51.5%22W/@36.8123925,-119.7481271,218m/data=!3m1!1e3!4m2!3m1!1s0x0:0x0" target="_blank">South of Kennel Bookstore Fresno, CA</a>
+  - line: <a href="https://www.google.com/maps/place/36%C2%B048'44.7%22N+119%C2%B044'51.5%22W/@36.8123925,-119.7481271,218m/data=!3m1!1e3!4m2!3m1!1s0x0:0x0" target="_blank">Memorial Garden @Fresno State</a>
+  - line: <a href="https://www.google.com/maps/place/36%C2%B048'44.7%22N+119%C2%B044'51.5%22W/@36.8123925,-119.7481271,218m/data=!3m1!1e3!4m2!3m1!1s0x0:0x0" target="_blank">South of Kennel Bookstore, Fresno, CA</a>
 
 # Credits content
 credits: <a href="https://jeromelachaud.github.io/freelancer-theme/">Freelancer Jekyll theme</a>, Nicole Warmerdam and Kacie Anne for artwork, all the members of the <a href="https://www.facebook.com/groups/354051928072314">Fresno State Sustainability Ambassadors</a>.
