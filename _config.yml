@@ -1,26 +1,26 @@
 # Site settings
-title: Freelancer
-email: your-email@domain.com
-url: https://example.github.io
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
-skills: "Web Developer - Graphic Artist - User Experience Designer"
-meta_author: LastName FirstName
+title: Earth Day
+email: bweinman@csufresno.edu
+url: https://mrcsabatoth.github.io
+description: "Earth Day 2016 @Fresno State, Memorial Garden: south of Kennel Bookstore, Wednesday, 4.20.2016, 10:00 am - 2:00 pm"
+skills: "@Fresno State Memorial Garden - 4.20.2016, 10:00 am - 2:00 pm"
+meta_author: Eart Day
 
 # Google webmaster tools
 google_verify:
 
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:
+bing_verify: 0CD07776082C537DF91D5387EC2D12AC
 
 # Contact form:
 # - static : pass through formspree.io to validate email sending
 # - disqus : replace contact form by disqus thread
 # - comment the line below if you want to stick with the default PHP contact form
-contact: static
+contact: disqus
 
 # If you use disqus you need disqus shortname
 # https://help.disqus.com/customer/portal/articles/466208
-disqus_shortname: myshortname
+disqus_shortname: bulldogearthday
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
@@ -31,31 +31,25 @@ color:
 
 # Footer settings
 footer:
-  copyright: Dr. Henry Jekyll
+  creator: Csaba Toth
   location: Location
   social: Around the Web
   credits: Credits
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: twitter
-    url: http://twitter.com/jekyllrb
   - title: facebook
-    url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket
-    url: http://bitbucket.org/jekyll
+    url: https://www.facebook.com/groups/354051928072314
   - title: github
-    url: http://github.com/jekyll
+    url: https://github.com/bulldogearthday
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
+  - line: <a href="https://www.google.com/maps/place/36%C2%B048'44.7%22N+119%C2%B044'51.5%22W/@36.8123925,-119.7481271,218m/data=!3m1!1e3!4m2!3m1!1s0x0:0x0">Memorial Park @Fresno State</a>
+  - line: <a href="https://www.google.com/maps/place/36%C2%B048'44.7%22N+119%C2%B044'51.5%22W/@36.8123925,-119.7481271,218m/data=!3m1!1e3!4m2!3m1!1s0x0:0x0">South of Kennel Bookstore Fresno, CA</a>
 
 # Credits content
-credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
+credits: <a href="https://jeromelachaud.github.io/freelancer-theme/">Freelancer Jekyll theme</a>, Nicole Warmerdam and Kacie Anne for artwork, all the members of the <a href="https://www.facebook.com/groups/354051928072314">Fresno State Sustainability Ambassadors</a>.
 
 # Build settings
 markdown: kramdown
