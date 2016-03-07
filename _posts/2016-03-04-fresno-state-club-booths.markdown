@@ -2,7 +2,7 @@
 layout: default
 modal-id: 4
 date: 2016-03-04
-thumbnail: graph.png
+thumbnail: graphs.png
 img: clubbooths.jpg
 alt: image-alt
 title: Fresno State Club Booths
