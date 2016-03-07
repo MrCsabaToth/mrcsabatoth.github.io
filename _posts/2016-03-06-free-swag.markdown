@@ -2,7 +2,7 @@
 layout: default
 modal-id: 6
 date: 2016-03-06
-img: swagbag.png
+thumbnail: swagbag.png
 img: bigtotal.jpg
 alt: image-alt
 title: Free Swag
