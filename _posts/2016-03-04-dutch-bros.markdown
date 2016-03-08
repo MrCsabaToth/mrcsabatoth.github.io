@@ -8,5 +8,6 @@ alt: image-alt
 title: Dutch Bros
 subtitle: BYOB - BRING YOUR OWN MUG!
 description: Bring your own mug to receive $1.00 off any drink!
+category: program
 
 ---

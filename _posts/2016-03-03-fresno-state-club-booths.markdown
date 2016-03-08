@@ -8,5 +8,6 @@ alt: image-alt
 title: Fresno State Club Booths
 subtitle: TALK GREEN WITH FRESNO STATE CLUBS.
 description: Ask how they are promoting sustainability and get involved! Active club membership looks great on resumes and CVs!
+category: program
 
 ---
