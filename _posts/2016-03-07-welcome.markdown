@@ -8,7 +8,7 @@ category: post
 ---
 Blog posts are located in the `_posts` directory. To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter (the settings between the '---' lines).
 
-![alternative text](/img/posts/blog-post-img.jpg "Title is optional")
+![alternative text](/img/posts/blog-post-img.jpg "Title is optional"){: .center-image .img-responsive .img-rounded }
 
 Take a look at the source for this post to get an idea about how it works. You can use [markdown][markdown] notation to format your text.
 
