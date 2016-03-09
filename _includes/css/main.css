@@ -460,3 +460,16 @@ footer .footer-below {
     margin: 0 auto;
     display: block;
 }
+
+.panel-default .accordion-toggle:after {
+    font-family: 'FontAwesome';
+    content: "\f078";
+    float: right;
+    color: #{{ site.color.secondary }};
+}
+.panel-default.collapsed .accordion-toggle:after {
+    font-family: 'FontAwesome';
+    content: "\f054";
+    float: right;
+    color: #{{ site.color.secondary }};
+}
