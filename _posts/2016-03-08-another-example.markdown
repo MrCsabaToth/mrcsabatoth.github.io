@@ -2,6 +2,7 @@
 layout: default
 post-id: 8
 date: 2016-03-07 23:00
+author: Jane Doe
 title: Anothr example post
 category: post
 
