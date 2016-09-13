@@ -114,8 +114,8 @@
   "contactBlock": {
     "links": [
       {
-        "text": "devfest@google.com",
-        "url": "mailto:devfest@google.com"
+        "text": "rio@gdgfresno.com",
+        "url": "mailto:rio@gdgfresno.com"
       }
     ]
   },
@@ -148,6 +148,9 @@
         "soldOut": false
       }
     ]
+  },
+  "tshirts": {
+    "url": "//teespring.com/ValleyDevFest2016"
   },
   "teamPageTitle": "team-page-title",
   "teamPageText": "team-page-text",
