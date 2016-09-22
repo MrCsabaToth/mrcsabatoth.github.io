@@ -12,7 +12,44 @@
 
   <template>
 
-    <style include="shared-styles">:host{display:block;background:var(--default-primary-color);color:var(--text-primary-color);--social-font-color:var(--text-primary-color);}a{color:var(--text-primary-color);}.container{@apply (--layout-vertical);}.social-section{@apply (--layout-flex-5);}.social-section:not(:first-of-type){margin-top:30px;}.divider{@apply (--layout-flex);}@media (min-width: 601px){.container{@apply (--layout-horizontal);}.social-section:not(:first-of-type){margin-top:0;}}</style>
+    <style include="shared-styles">
+      :host {
+        display: block;
+        background: var(--default-primary-color);
+        color: var(--text-primary-color);
+        --social-font-color: var(--text-primary-color);
+      }
+
+      a {
+        color: var(--text-primary-color);
+      }
+
+      .container {
+        @apply(--layout-vertical);
+      }
+
+      .social-section {
+        @apply(--layout-flex-5);
+      }
+
+      .social-section:not(:first-of-type) {
+        margin-top: 30px;
+      }
+
+      .divider {
+        @apply(--layout-flex);
+      }
+
+      @media (min-width: 601px) {
+        .container {
+          @apply(--layout-horizontal);
+        }
+
+        .social-section:not(:first-of-type) {
+          margin-top: 0;
+        }
+      }
+    </style>
 
     <iron-ajax auto="" url="[[app.data.tweetsSource]]" handle-as="json" last-response="{{_posts}}"></iron-ajax>
     <div class="container">

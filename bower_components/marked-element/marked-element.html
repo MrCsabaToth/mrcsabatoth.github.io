@@ -4,7 +4,12 @@
 
 </head><body><dom-module id="marked-element">
   <template>
-    <style>.hidden{display:none !important;}</style>
+    <style>
+      /* Thanks IE 10. */
+      .hidden {
+        display: none !important;
+      }
+    </style>
     <content select=".markdown-html"></content>
     <div id="content" class="hidden"></div>
   </template>

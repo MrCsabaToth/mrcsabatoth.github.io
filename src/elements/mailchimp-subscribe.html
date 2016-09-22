@@ -13,9 +13,44 @@
 
   <template>
 
-    <style>:host{display:block;width:100%;--paper-input-container-color:var(--mailchimp-color);--paper-input-container-focus-color:var(--default-primary-color);--paper-input-container-input-color:var(--mailchimp-color);}.mc_embed_signup{@apply (--layout-vertical);@apply (--layout-center-center);}.mc-field-group{@apply (--layout-vertical);}paper-input-container{padding-bottom:0;}paper-input-container,
-      .mc-embedded-subscribe-form{width:100%;}paper-input-container input,
-      paper-input-container label{font-size:14px !important;}.subscribe-button{@apply (--layout-self-end);margin-top:5px;margin-right:0;}</style>
+    <style>
+      :host {
+        display: block;
+        width: 100%;
+        --paper-input-container-color: var(--mailchimp-color);
+        --paper-input-container-focus-color: var(--default-primary-color);
+        --paper-input-container-input-color: var(--mailchimp-color);
+      }
+
+      .mc_embed_signup {
+        @apply(--layout-vertical);
+        @apply(--layout-center-center);
+      }
+
+      .mc-field-group {
+        @apply(--layout-vertical);
+      }
+
+      paper-input-container {
+        padding-bottom: 0;
+      }
+
+      paper-input-container,
+      .mc-embedded-subscribe-form {
+        width: 100%;
+      }
+
+      paper-input-container input,
+      paper-input-container label {
+        font-size: 14px !important;
+      }
+
+      .subscribe-button {
+        @apply(--layout-self-end);
+        margin-top: 5px;
+        margin-right: 0;
+      }
+    </style>
 
     <div id="mc_embed_signup" class="mc_embed_signup">
       <form id="mc-embedded-subscribe-form" class="mc-embedded-subscribe-form validate" action="[[url]]" method="post" name="mc-embedded-subscribe-form" target="_blank" rel="noopener noreferrer" novalidate="">
