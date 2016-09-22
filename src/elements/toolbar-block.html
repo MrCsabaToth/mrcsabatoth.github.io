@@ -18,62 +18,7 @@
 
   <template>
 
-    <style include="shared-styles">
-      :host {
-        --header-color: #fff;
-
-        --paper-tabs: {
-          height: 64px;
-        };
-        --iron-icon-fill-color: var(--header-color);
-        --paper-tabs-selection-bar-color: var(--header-color);
-
-        display: block;
-        position: relative;
-        color: var(--header-color);
-      }
-
-      .logo-wrapper {
-        @apply(--layout-flex);
-      }
-
-      .logo {
-        margin-top: 7px;
-        height: 40px;
-        width: 130px;
-      }
-
-      iron-image {
-        background-color: transparent;
-      }
-
-      paper-tabs a {
-        color: var(--header-color);
-        transition: color .7s
-      }
-
-      paper-tab {
-        flex: none;
-        padding: 0 10px;
-      }
-
-      .nav-link {
-        @apply(--layout-horizontal);
-        @apply(--layout-center-center);
-        height: 100%;
-        text-transform: uppercase;
-      }
-
-      .action-button-wrapper {
-        margin-left: 16px;
-      }
-
-      .action-button {
-        color: var(--header-background);
-        background: var(--header-color);
-        font-size: 13px;
-      }
-    </style>
+    <style include="shared-styles">:host{--header-color:#fff;--paper-tabs:{height:64px;};--iron-icon-fill-color:var(--header-color);--paper-tabs-selection-bar-color:var(--header-color);display:block;position:relative;color:var(--header-color);}.logo-wrapper{@apply (--layout-flex);}.logo{margin-top:7px;height:40px;width:130px;}iron-image{background-color:transparent;}paper-tabs a{color:var(--header-color);transition:color .7s;}paper-tab{flex:none;padding:0 10px;}.nav-link{@apply (--layout-horizontal);@apply (--layout-center-center);height:100%;text-transform:uppercase;}.action-button-wrapper{margin-left:16px;}.action-button{color:var(--header-background);background:var(--header-color);font-size:13px;}</style>
 
     <app-toolbar id="mainToolbar">
       <div class="navItem leftItem" hidden$="{{!app.isPhoneSize}}">

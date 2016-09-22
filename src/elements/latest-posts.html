@@ -12,49 +12,7 @@
 
   <template>
 
-    <style include="shared-styles">
-      :host {
-        display: block;
-        background: #fff;
-      }
-
-      .posts-wrapper {
-        @apply(--layout-vertical);
-      }
-
-      .post {
-        @apply(--layout-flex-5);
-      }
-
-      .post:not(:first-of-type) {
-        margin-top: 30px;
-      }
-
-      .title {
-        color: var(--default-primary-color);
-        font-size: 24px;
-        line-height: 1.2
-      }
-
-      a {
-        color: var(--default-primary-color);
-        font-size: 16px;
-      }
-
-      @media (min-width: 601px) {
-        .posts-wrapper {
-          @apply(--layout-horizontal);
-        }
-
-        .post:not(:first-of-type) {
-          margin-top: 0;
-        }
-
-        .post-divider {
-          @apply(--layout-flex);
-        }
-      }
-    </style>
+    <style include="shared-styles">:host{display:block;background:#fff;}.posts-wrapper{@apply (--layout-vertical);}.post{@apply (--layout-flex-5);}.post:not(:first-of-type){margin-top:30px;}.title{color:var(--default-primary-color);font-size:24px;line-height:1.2;}a{color:var(--default-primary-color);font-size:16px;}@media (min-width: 601px){.posts-wrapper{@apply (--layout-horizontal);}.post:not(:first-of-type){margin-top:0;}.post-divider{@apply (--layout-flex);}}</style>
 
     <div class="container">
       <h4 class="heading text-center">[[localize('latest-news')]]</h4>
