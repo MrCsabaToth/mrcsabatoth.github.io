@@ -447,6 +447,10 @@ var r=t.propertyDataFromStyles(n._styles,this),i=!this.__notStyleScopeCacheable;
         <path d="M5.5,9A1.5,1.5 0 0,0 7,7.5A1.5,1.5 0 0,0 5.5,6A1.5,1.5 0 0,0 4,7.5A1.5,1.5 0 0,0 5.5,9M17.41,11.58C17.77,11.94 18,12.44 18,13C18,13.55 17.78,14.05 17.41,14.41L12.41,19.41C12.05,19.77 11.55,20 11,20C10.45,20 9.95,19.78 9.58,19.41L2.59,12.42C2.22,12.05 2,11.55 2,11V6C2,4.89 2.89,4 4,4H9C9.55,4 10.05,4.22 10.41,4.58L17.41,11.58M13.54,5.71L14.54,4.71L21.41,11.58C21.78,11.94 22,12.45 22,13C22,13.55 21.78,14.05 21.42,14.41L16.04,19.79L15.04,18.79L20.75,13L13.54,5.71Z"></path>
       </g>
 
+      <g id="cardboard">
+        <path d="M20.6364972,6 L3.19864407,6 C2.54824859,6 2,6.56836937 2,7.26931532 L2,17.7111261 C2,18.4120721 2.54824859,18.9803243 3.22463277,18.9803243 L7.9880226,18.9803243 C8.49875706,18.9803243 8.93649718,18.6564955 9.12045198,18.195991 L10.5055367,14.7287387 C10.739096,14.1440901 11.2949153,13.7327748 11.9435028,13.7327748 C12.5920904,13.7327748 13.1479096,14.1440901 13.3814689,14.7287387 L14.7665537,18.195991 C14.9505085,18.6564955 15.3882486,18.9803243 15.8729944,18.9803243 L20.6364972,18.9803243 C21.3387571,18.9803243 21.8870056,18.4120721 21.8870056,17.7111261 L21.8870056,7.26931532 C21.8870056,6.56836937 21.3387571,6 20.6364972,6 L20.6364972,6 Z M7.43310734,14.7744144 C6.21468927,14.7744144 5.22813559,13.7523333 5.22813559,12.4901622 C5.22813559,11.227991 6.21468927,10.206027 7.43310734,10.206027 C8.65141243,10.206027 9.6359322,11.227991 9.6359322,12.4901622 C9.6359322,13.7523333 8.64926554,14.7744144 7.43310734,14.7744144 L7.43310734,14.7744144 Z M16.4550282,14.7733604 C15.2372881,14.7733604 14.2510734,13.7517477 14.2510734,12.4901622 C14.2510734,11.2286937 15.2372881,10.2070811 16.4550282,10.2070811 C17.6727684,10.2070811 18.6589831,11.2286937 18.6589831,12.4901622 C18.6589831,13.7517477 17.6727684,14.7733604 16.4550282,14.7733604 L16.4550282,14.7733604 Z"></path>
+      </g>
+
     </defs>
   </svg>
 </iron-iconset-svg>
@@ -1532,7 +1536,7 @@ this.currentTarget=t,this.defaultPrevented=!1,this.eventPhase=Event.AT_TARGET,th
   <template>
 
     <style include="shared-styles">:host{display:block;padding:40px 0;position:relative;overflow:hidden;min-height:300px;--paper-item-disabled-color:var(--primary-text-color);}google-map,
-      .disable-map-events{@apply (--layout-fit);}.container{@apply (--layout-horizontal);}.card-wrapper{@apply (--layout-horizontal);@apply (--layout-flex);@apply (--layout-around-justified);}.card-content{padding-right:8px;padding-left:8px;}.card{--paper-card-header-text:{color:#FFFFFF;font-weight:300;};min-width:320px;max-width:400px;background:#FFFFFF;}paper-icon-item{--paper-item-disabled-color:inherit;}paper-icon-item iron-icon{--iron-icon-fill-color:var(--default-primary-color);}.card .bottom-link{color:var(--secondary-text-color);}.header{height:250px;position:relative;}.header-image{@apply (--layout-fit);width:100%;background-size:cover;background-position:50% 50%;transition:background-image 1s ease-in-out;will-change:background-image;}.title-text{padding:16px;position:absolute;bottom:0;font-size:24px;color:#fff;}.additional-space{display:none;}@media (min-width: 601px){.card{min-width:400px;}}@media (min-width: 961px){:host{padding:100px 0;}.additional-space{@apply (--layout);@apply (--layout-flex);}}</style>
+      .disable-map-events{@apply (--layout-fit);}.container{@apply (--layout-horizontal);}.card-wrapper{@apply (--layout-horizontal);@apply (--layout-flex);@apply (--layout-around-justified);}.card-content{padding-right:8px;padding-left:8px;}.card{--paper-card-header-text:{color:#FFFFFF;font-weight:300;};min-width:320px;max-width:400px;background:#FFFFFF;}.video-item{@apply (--layout);padding-right:24px;width:100%;min-width:100%;}.thumbnail{@apply (--layout-fit);}.play-video{@apply (--layout-fit);@apply (--layout-vertical);@apply (--layout-center-center);margin:0 auto;cursor:pointer;background:rgba(0, 0, 0, 0.15);}.play-icon{--iron-icon-width:48px;--iron-icon-height:48px;--iron-icon-fill-color:#fff;}paper-icon-item{--paper-item-disabled-color:inherit;}paper-icon-item iron-icon{--iron-icon-fill-color:var(--default-primary-color);}.card .bottom-link{color:var(--secondary-text-color);}.header{height:250px;position:relative;}.header-image{@apply (--layout-fit);width:100%;background-size:cover;background-position:50% 50%;transition:background-image 1s ease-in-out;will-change:background-image;}.title-text{padding:16px;position:absolute;bottom:0;font-size:24px;color:#fff;}.additional-space{display:none;}@media (min-width: 601px){.card{min-width:400px;}.video-item{width:400px;min-width:400px;}.video-item:hover paper-card{@apply (--shadow-elevation-2dp);}}@media (min-width: 961px){:host{padding:100px 0;}.additional-space{@apply (--layout);@apply (--layout-flex);}}</style>
 
     <template is="dom-if" if="[[selected]]">
       <google-map zoom="[[app.data.location.pointer.zoom]]" latitude="[[app.data.location.mapCenter.latitude]]" longitude="[[app.data.location.mapCenter.longitude]]" api-key="[[app.data.location.apiKey]]" styles="[[options]]" disable-zoom="" disable-default-ui="">
@@ -1546,7 +1550,16 @@ this.currentTarget=t,this.defaultPrevented=!1,this.eventPhase=Event.AT_TARGET,th
       <div class="card-wrapper">
         <paper-card class="card">
           <div class="header paper-card">
-            <vr-view url="[[_currentImage]]"></vr-view>
+            <div class="video-item">
+              <paper-card class="card">
+                <div class="header paper-card">
+                  <iron-image class="thumbnail" src="[[app.data.location.video.thumbnail]]" placeholder="[[app.data.location.video.thumbnail]]" sizing="cover" preload="" fade=""></iron-image>
+                  <div class="play-video" on-tap="_playVideo">
+                    <iron-icon class="play-icon" icon="icons:play"></iron-icon>
+                  </div>
+                </div>
+              </paper-card>
+            </div>
             <div class="title-text">[[localize('location-title')]]</div>
           </div>
           <div class="paper-card-container">
@@ -1567,6 +1580,9 @@ this.currentTarget=t,this.defaultPrevented=!1,this.eventPhase=Event.AT_TARGET,th
               <a class="bottom-link" href$="//www.google.com/maps/dir/[[app.data.location.pointer.latitude]],[[app.data.location.pointer.longitude]]/@[[app.data.location.pointer.latitude]],[[app.data.location.pointer.longitude]],18z" target="_blank" rel="noopener noreferrer">
                 <paper-icon-button icon="icons:directions"></paper-icon-button>
               </a>
+              <a class="bottom-link" href$="//gdgfresno.github.io/BWSS360tour" target="_blank" rel="noopener noreferrer">
+                <paper-icon-button icon="icons:cardboard"></paper-icon-button>
+              </a>
             </div>
           </div>
         </paper-card>
@@ -1575,7 +1591,7 @@ this.currentTarget=t,this.defaultPrevented=!1,this.eventPhase=Event.AT_TARGET,th
 
   </template>
 
-  <script>!function(){"use strict";Polymer({is:"map-block",behaviors:[HOVERBOARD.LocalizeBehavior],properties:{options:{type:String,value:function(){return[{stylers:[{lightness:40},{visibility:"on"},{gamma:.9},{weight:.4}]},{elementType:"labels",stylers:[{visibility:"on"}]},{featureType:"water",stylers:[{color:"#5dc7ff"}]}]}},_currentSourceIndex:{type:Number,value:0},_currentImage:{type:String}},observers:["setImages(app.data.location.images)"],setImages:function(e){if(e&&(this.images=e,this._currentImage=this.images[this._currentSourceIndex],this.images.length>1)){var t=this;setInterval(function(){t.nextImage()},3e4)}},previousImage:function(){this._currentSourceIndex=this._currentSourceIndex>0?this._currentSourceIndex-1:this.images.length-1,this._currentImage=this.images[this._currentSourceIndex]},nextImage:function(){this._currentSourceIndex=this._currentSourceIndex<this.images.length-1?this._currentSourceIndex+1:0,this._currentImage=this.images[this._currentSourceIndex]}})}();</script>
+  <script>!function(){"use strict";Polymer({is:"map-block",behaviors:[HOVERBOARD.LocalizeBehavior],properties:{options:{type:String,value:function(){return[{stylers:[{lightness:40},{visibility:"on"},{gamma:.9},{weight:.4}]},{elementType:"labels",stylers:[{visibility:"on"}]},{featureType:"water",stylers:[{color:"#5dc7ff"}]}]}},_currentSourceIndex:{type:Number,value:0}},observers:["setVideo(app.data.location.video)"],setVideo:function(e){this.video=e},_playVideo:function(e){HOVERBOARD.Elements.Template.openVideo(this.video.title,this.video.youtubeId,!0),HOVERBOARD.Analytics.trackEvent("video","watch","location video "+this.video.title)}})}();</script>
 
 </dom-module>
 <dom-module id="home-page" assetpath="pages/">
