@@ -8,8 +8,11 @@
 </head>
 <body class="fullbleed">
 
-<google-map latitude="41.876" longitude="-87.624" zoom="11" kml="http://googlemaps.github.io/js-v2-samples/ggeoxml/cta.kml"></google-map>
+<template is="dom-bind">
+  <google-map latitude="41.876" longitude="-87.624" zoom="11" kml="http://googlemaps.github.io/js-v2-samples/ggeoxml/cta.kml" api-key="[[apiKey]]"></google-map>
+</template>
 
+<script>if("https://custom-elements.appspot.com"===location.origin){var t=document.querySelector("template");t.apiKey="AIzaSyD_bfL1kCUIsD0dZ4XxWAO_0W6NstEQ5Pg"}</script>
 
 
 </body></html>

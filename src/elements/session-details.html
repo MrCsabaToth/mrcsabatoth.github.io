@@ -25,7 +25,16 @@
 
   <template>
 
-    <style include="shared-styles dialog-styles">a{color:var(--default-primary-color);text-decoration:none;}paper-icon-item{cursor:pointer;}</style>
+    <style include="shared-styles dialog-styles">
+      a {
+        color: var(--default-primary-color);
+        text-decoration: none;
+      }
+
+      paper-icon-item {
+        cursor: pointer;
+      }
+    </style>
 
     <paper-scroll-header-panel id="scrollHeaderPanel" no-reveal="">
       <paper-toolbar class="tall">
@@ -61,7 +70,7 @@
             <div class="info">
               <h1 class="main-title">[[session.title]]</h1>
               <div class="meta highlight">[[session.dateReadable]] / [[session.startTime]] - [[session.endTime]] /
-                [[session.track.title]]
+                [[session.track.title]] / [[session.track.location]]
                 <template is="dom-if" if="{{session.language}}">
                   / [[session.language]]
                 </template>

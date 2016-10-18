@@ -8,11 +8,12 @@
     },
     "116": {
         "id": 116,
-        "title": "Opening",
-        "description": "Official start of the conference. Greetings from the organizers, sponsors and partners",
+        "title": "Opening: greetings from the organizers, sponsors and partners",
+        "description": "Official start of the conference.<br>8:50 - 8:55 - Irma and Rebecca- 59doc<br>8:55 - 9:00 - Martin - Google<br>9:00 - 9:05 - Dr. Carole Goldsmith - President Fresno City College<br>9:05 - 9-10 - Rio - Fresno City College and GDG Fresno",
         "image": "/images/backgrounds/coffee-break.jpg",
         "colspan": true,
         "speakers": [
+            5,
             14
         ]
     },
@@ -27,7 +28,8 @@
         ],
         "complexity": "Beginner",
         "tags": [
-            "General"
+            "Animations",
+            "Human Perception"
         ]
     },
     "103": {
@@ -77,7 +79,14 @@
     "110": {
         "id": 110,
         "title": "Build and Battle",
-        "description": "Learn Arduino, program you own low cost sumo bot and compete with each other. Engage in other maker activities."
+        "description": "Learn Arduino, program you own low cost sumo bot and compete with each other. Engage in other maker activities. Additional pre-regsitration required.",
+        "speakers": [
+            19
+        ],
+        "complexity": "Beginner",
+        "tags": [
+            "Maker Space"
+        ]
     },
 
     "111": {
@@ -100,7 +109,7 @@
         "speakers": [
             6
         ],
-        "complexity": "Intermediate",
+        "complexity": "Beginner",
         "tags": [
             "Android",
             "Libraries",
@@ -126,7 +135,7 @@
     "114": {
         "id": 114,
         "title": "OpenJDK for the a'N'droidlings",
-        "description": "The day has come, finally with version N, Android moved to OpenJDK from the old rusty \"Harmony\" based friend. With the move to OpenJDK finally aNdroid finally has access to many new language features lambdas, streams, default methods on interfaces and many more. You have listened all those features in Java talks for years, this time come and watch  how the new language features and invoke dynamics will change your aNdroid world.",
+        "description": "The day has come: with version N, Android moved to OpenJDK at last from the old rusty \"Harmony\" based friend. With the move to OpenJDK aNdroid finally has access to many new language features lambdas, streams, default methods on interfaces and many more. You have listened all those features in Java talks for years, this time come and watch how the new language features and invoke dynamics will change your aNdroid world.",
         "speakers": [
             6
         ],
@@ -164,6 +173,7 @@
         ],
         "complexity": "Beginner",
         "tags": [
+            "Cloud Track",
             "Go"
         ]
     },
@@ -176,6 +186,7 @@
         ],
         "complexity": "Beginner",
         "tags": [
+            "Cloud Track",
             "App Engine",
             "GAE",
             "Cloud"
@@ -183,26 +194,33 @@
     },
     "123": {
         "id": 123,
-        "title": "TBD",
-        "description": "Stay tuned",
+        "title": "Supercharging Firebase with Google Cloud",
+        "description": "In this talk, we take a look at how you can use Firebase to build a real time application that interacts with virtual machines, big data, machine learning APIs, and more on Google Cloud Platform. Firebase allows you to build awesome real time apps quickly and easily. Google Cloud Platform lets you build powerful services that scale. Combining these two platforms gives you the power to build amazing experiences without worrying about infrastructure and operations. Join us as we show you step by step how we built our application in just a few days. You will walk away ready to build an amazing application with Firebase and Google Cloud Platform.",
         "speakers": [
             4
         ],
         "complexity": "Intermediate",
         "tags": [
+            "Cloud Track",
+            "Firebase",
+            "Google Cloud Platform",
+            "GCP",
             "Cloud"
         ]
     },
     "124": {
         "id": 124,
-        "title": "TBD",
-        "description": "Stay tuned",
+        "title": "Magic in the Cloud with Node.js",
+        "description": "Node.js makes building web applications and APIs easy – Google App Engine makes running node.js in production fun. Walk through deploying a Hello World app, using the gcloud npm module to talk to other Google Cloud services, and using the Cloud Vision API to analyze images.",
         "speakers": [
             4
         ],
         "complexity": "Intermediate",
         "tags": [
-            "Cloud"
+            "Cloud Track",
+            "Cloud",
+            "Deep Learning",
+            "Big Query"
         ]
     },
     "125": {
@@ -212,8 +230,9 @@
         "speakers": [
             5
         ],
-        "complexity": "Intermediate",
+        "complexity": "Beginner",
         "tags": [
+            "Cloud Track",
             "Firebase"
         ]
     },
@@ -227,6 +246,7 @@
         ],
         "complexity": "Beginner",
         "tags": [
+            "PWA Track",
             "Progressive Web Apps",
             "NFC",
             "BLE"
@@ -241,19 +261,21 @@
         ],
         "complexity": "Intermediate",
         "tags": [
+            "PWA Track",
             "Progressive Web Apps",
             "Machine Learning"
         ]
     },
     "133": {
         "id": 133,
-        "title": "Developing Multi-Tenant Applications on GCP and App Engine",
-        "description": "Stay Tuned...",
+        "title": "App Engine Flexible and Custom Runtimes",
+        "description": "Developing Multi-Tenant Applications on GCP and App Engine",
         "speakers": [
             9
         ],
         "complexity": "Intermediate",
         "tags": [
+            "PWA Track",
             "App Engine",
             "GAE",
             "Compute Engine",
@@ -267,33 +289,39 @@
         "speakers": [
             15
         ],
-        "complexity": "Intermediate",
+        "complexity": "Beginner",
         "tags": [
+            "AMP PWA Track",
             "AMP"
         ]
     },
     "135": {
         "id": 135,
-        "title": "TBD",
-        "description": "Stay Tuned...",
+        "title": "The Future of Web Layout: The CSS Grid",
+        "description": "Layout for the web has been an ever evolving process of hackery. Frames, tables, floats and positioning are all victims of abuse by developers, none of which ever really provided the control that was needed for the complex web. The closest solution in recent years has been the adoption of Flexbox to the CSS spec, but even that is being forced to do layout that it’s not intended for. Enter the Grid. The first true solution that has been specifically designed making even the most complex layout possible.",
         "speakers": [
-            7
+            16
         ],
-        "complexity": "Intermediate",
+        "complexity": "Beginner",
         "tags": [
-            "General"
+            "AMP PWA Track",
+            "Web",
+            "CSS",
+            "UX"
         ]
     },
     "136": {
         "id": 136,
-        "title": "DevTools",
-        "description": "Stay Tuned...",
+        "title": "DevTools: The Beginning",
+        "description": "DevTools is no longer an optional tool in the web developers belt. In this talk, James explores getting started with DevTools to make you web development day just a little more enchanted.",
         "speakers": [
             8
         ],
-        "complexity": "Intermediate",
+        "complexity": "Beginner",
         "tags": [
-            "Chrome Dev Tools"
+            "AMP PWA Track",
+            "Chrome Dev Tools",
+            "Web"
         ]
     },
 
@@ -306,6 +334,7 @@
         ],
         "complexity": "Intermediate",
         "tags": [
+            "AMP PWA Track",
             "AMP",
             "Web",
             "Progressive Web Apps"
@@ -318,35 +347,90 @@
         "speakers": [
             3
         ],
-        "complexity": "Intermediate",
+        "complexity": "Beginner",
         "tags": [
+            "AMP PWA Track",
             "Web",
             "UX"
         ]
     },
     "143": {
         "id": 143,
-        "title": "TBD",
-        "description": "Stay Tuned...",
+        "title": "Polymer and Web Components NOW",
+        "description": "You've lost track of the star date and you've started to question exactly which timeline you're on. \"Polymer, Web Components...I've built them, lots of people have...but where is the meaning?\" In this talk, Justin explores the current state of Polymer, the standards, how you might consider using them and what is in store to get you back out into the final progressive frontier of web development.",
         "speakers": [
             7
         ],
-        "complexity": "Intermediate",
+        "complexity": "Beginner",
         "tags": [
-            "General"
+            "PWA Track",
+            "Polymer",
+            "Web Components"
         ]
     },
     "144": {
         "id": 144,
-        "title": "TBD",
-        "description": "Stay Tuned...",
+        "title": "Progressive Web Apps to Production",
+        "description": "Building a progressive web app from scratch is amazing. But what happens when you already have an web application in production now? In this talk, we explore the approaches and cases for getting progressive web app features integrated into your new and existing production environments.",
         "speakers": [
             7
         ],
-        "complexity": "Intermediate",
+        "complexity": "Beginner",
         "tags": [
-            "General"
+            "PWA Track",
+            "Progressive Web Apps",
+            "PWA"
         ]
+    },
+    "145": {
+        "id": 145,
+        "title": "PWAs, Physical Web, and things in your house",
+        "description": "In a time where your house is connected, its also massively harder to connect to things. In this talk, we explore a future demo of just what the Physical Web and Progressive Webs Apps can be used for to super-charge your Internet of Things experience.",
+        "speakers": [
+            7
+        ],
+        "complexity": "Beginner",
+        "tags": [
+            "PWA Track",
+            "Progressive Web Apps",
+            "IoT"
+        ]
+    },
+    "146": {
+        "id": 146,
+        "title": "Integrating and Delivering AMP",
+        "description": "In this talk, we explore the approaches and cases for getting AMP features integrated into your new and existing production environments.",
+        "speakers": [
+            7
+        ],
+        "complexity": "Beginner",
+        "tags": [
+            "AMP PWA Track",
+            "AMP"
+        ]
+    },
+
+    "150": {
+        "id": 150,
+        "title": "Code Labs",
+        "description": "Interactive Google Maps code labs facilitated by Free Code Camp advocates",
+        "speakers": [
+            17,
+            18
+        ],
+        "complexity": "Beginner",
+        "tags": [
+            "Code Labs",
+            "Maps",
+            "Cloud",
+            "Web"
+        ]
+    },
+
+    "404": {
+        "id": 404,
+        "title": "Not available",
+        "description": ""
     }
 
 }

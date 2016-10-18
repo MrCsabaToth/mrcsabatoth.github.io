@@ -7,7 +7,21 @@
 
   <template>
 
-    <style include="shared-styles">.clickable{cursor:pointer;}.toast-action{@apply (--layout-self-center);padding-left:24px;color:#eeff41;text-transform:uppercase;font-weight:600;cursor:pointer;white-space:nowrap;}</style>
+    <style include="shared-styles">
+      .clickable {
+        cursor: pointer;
+      }
+
+      .toast-action {
+        @apply(--layout-self-center);
+        padding-left: 24px;
+        color: #eeff41;
+        text-transform: uppercase;
+        font-weight: 600;
+        cursor: pointer;
+        white-space: nowrap;
+      }
+    </style>
 
     <paper-toast id="internalToast" class$="{{_computeClass(_tapHandler)}}" duration="[[duration]]" text="[[text]]" on-tap="_handleTap" layout="" horizontal="" justified="">
 

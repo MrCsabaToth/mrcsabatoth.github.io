@@ -2,7 +2,28 @@
 
   <template>
 
-    <style include="shared-styles">:host{display:block;}.details{@apply (--layout-vertical);@apply (--layout-center-justified);}.details-item{@apply (--layout-horizontal);margin:0 auto;padding-bottom:32px;}@media (min-width: 1600px){.container{max-width:960px;}}</style>
+    <style include="shared-styles">
+      :host {
+        display: block;
+      }
+
+      .details {
+        @apply(--layout-vertical);
+        @apply(--layout-center-justified);
+      }
+
+      .details-item {
+        @apply(--layout-horizontal);
+        margin: 0 auto;
+        padding-bottom: 32px;
+      }
+
+      @media (min-width: 1600px) {
+        .container {
+          max-width: 960px;
+        }
+      }
+    </style>
 
     <iron-ajax auto="" id="ajax" url="[[source]]" handle-as="text" on-response="_updateCascadedNodes" last-response="{{cod}}"></iron-ajax>
 
@@ -16,6 +37,7 @@
       </div>
     </div>
 
+    <logos-block app="{{app}}" cascaded=""></logos-block>
     <footer-block app="{{app}}" cascaded=""></footer-block>
 
   </template>

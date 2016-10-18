@@ -84,6 +84,22 @@
     {
       "name": "English",
       "key": "en"
+    },
+    {
+      "name": "Español",
+      "key": "es"
+    },
+    {
+      "name": "Hmong",
+      "key": "hmn"
+    },
+    {
+      "name": "հայերեն",
+      "key": "hy"
+    },
+    {
+      "name": "العربية",
+      "key": "ar"
     }
   ],
   "footerBlocks": [
@@ -132,19 +148,19 @@
         "soldOut": true
       },
       {
-        "name": "early-ticket",
-        "price": 10,
+        "name": "student-ticket",
+        "price": 5,
         "currency": "$",
-        "starts": "early-ticket-starts",
-        "ends": "early-ticket-ends",
-        "soldOut": false
+        "starts": "student-ticket-starts",
+        "ends": "student-ticket-ends",
+        "soldOut": true
       },
       {
-        "name": "lazy-ticket",
+        "name": "normal-ticket",
         "price": 15,
         "currency": "$",
-        "starts": "lazy-ticket-starts",
-        "ends": "lazy-ticket-ends",
+        "starts": "normal-ticket-starts",
+        "ends": "normal-ticket-ends",
         "soldOut": false
       },
       {
@@ -207,7 +223,8 @@
   },
   "location": {
     "apiKey": "AIzaSyBF3hxBlnt1qfg0c9BUfdjqiIlNyJ8_gW4",
-    "link": "http://bitwiseindustries.com/",
+    "link": "//bitwiseindustries.com/",
+    "toursite": "//gdgfresno.github.io/BWSS360tour/",
     "pointer": {
       "latitude": 36.731822,
       "longitude": -119.785882,

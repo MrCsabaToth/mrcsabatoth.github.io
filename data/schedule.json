@@ -2,52 +2,62 @@
     "date": "2016-10-22",
     "dateReadable": "October 22",
     "tracks": [{
-        "title": "Web, AMP"
+        "title": "AMP / PWA Track",
+        "location": "GeekWise Classroom 1"
     }, {
-        "title": "PWA"
+        "title": "PWA Track",
+        "location": "GeekWise Classroom 2"
     }, {
-        "title": "Android"
+        "title": "Android",
+        "location": "GeekWise Classroom 3"
     }, {
-        "title": "Cloud"
+        "title": "Cloud Track",
+        "location": "GeekWise Classroom 4"
     }, {
-        "title": "Maker Space"
+        "title": "Codelabs",
+        "location": "GeekWise Classroom 5"
+    }, {
+        "title": "Maker Space",
+        "location": "GeekWise Classroom 6"
     }],
     "timeslots": [{
         "startTime": "08:00",
-        "endTime": "09:00",
+        "endTime": "08:50",
         "sessions": [
             [101]
         ]
     }, {
-        "startTime": "09:00",
-        "endTime": "9:20",
+        "startTime": "08:50",
+        "endTime": "9:10",
         "sessions": [
             [116]
         ]
     }, {
-        "startTime": "09:20",
-        "endTime": "10:00",
+        "startTime": "09:10",
+        "endTime": "09:50",
         "sessions": [
             [102]
         ]
     }, {
         "startTime": "10:00",
-        "endTime": "11:00",
+        "endTime": "10:50",
         "sessions": [
             [141],
             [131],
             [112],
             [121],
+            [150],
             [110]
         ]
     }, {
         "startTime": "11:00",
-        "endTime": "12:00",
+        "endTime": "11:50",
         "sessions": [
             [142],
             [132],
             [113],
             [122],
+            [150],
             [110]
         ]
     }, {
@@ -58,32 +68,35 @@
         ]
     }, {
         "startTime": "13:00",
-        "endTime": "14:00",
+        "endTime": "13:50",
         "sessions": [
             [134],
             [133],
             [111],
             [123],
+            [404],
             [110]
         ]
     }, {
         "startTime": "14:00",
-        "endTime": "15:00",
+        "endTime": "14:50",
         "sessions": [
             [135],
             [143],
             [114],
             [124],
+            [150],
             [110]
         ]
     }, {
         "startTime": "15:00",
-        "endTime": "16:00",
+        "endTime": "15:50",
         "sessions": [
             [136],
             [144],
             [115],
             [125],
+            [150],
             [110]
         ]
     }, {
@@ -91,12 +104,6 @@
         "endTime": "17:00",
         "sessions": [
             [104]
-        ]
-    }, {
-        "startTime": "17:00",
-        "endTime": "18:00",
-        "sessions": [
-            [105]
         ]
     }]
 }]

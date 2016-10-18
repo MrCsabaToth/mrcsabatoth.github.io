@@ -18,7 +18,34 @@
 
   <template>
 
-    <style include="shared-styles">:host{@apply (--layout-fit);--paper-toolbar-height:64px;margin:0 !important;padding:0 !important;position:fixed !important;background:rgba(0, 0, 0, .5);}.toolbar{text-transform:uppercase;z-index:9;background:rgba(0, 0, 0, .5);font-size:18px;color:#FFFFFF;}.video-wrapper{z-index:6;overflow:hidden;}.video{@apply (--layout-fit);padding:0;}</style>
+    <style include="shared-styles">
+      :host {
+        @apply(--layout-fit);
+        --paper-toolbar-height: 64px;
+        margin: 0 !important;
+        padding: 0 !important;
+        position: fixed !important;
+        background: rgba(0, 0, 0, .5);
+      }
+
+      .toolbar {
+        text-transform: uppercase;
+        z-index: 9;
+        background: rgba(0, 0, 0, .5);
+        font-size: 18px;
+        color: #FFFFFF;
+      }
+
+      .video-wrapper {
+        z-index: 6;
+        overflow: hidden;
+      }
+
+      .video {
+        @apply(--layout-fit);
+        padding: 0;
+      }
+    </style>
 
     <paper-toolbar class="toolbar">
       <paper-icon-button icon="icons:arrow-back" on-tap="close"></paper-icon-button>

@@ -16,13 +16,71 @@
 
   <template>
 
-    <style include="shared-styles">:host{display:block;--paper-menu-background-color:#fff;}.subpage-nav{padding-left:16px;height:69px;background:var(--default-primary-color);color:var(--text-primary-color);}.schedule-tabs{height:100%;}paper-tab a{color:var(--text-primary-color);}.filter-icon{margin-left:4px;}paper-checkbox{padding:0 24px;position:relative;min-height:48px;}paper-item{padding:0 24px;cursor:pointer;}.info-banner{padding:16px;background:rgba(236, 239, 241, 0.6);color:rgba(0,0,0,0.54);font-size:12px;}.legend-item{margin-right:8px;}.point{margin-right:4px;width:10px;height:10px;display:inline-block;border-radius:50%;}</style>
+    <style include="shared-styles">
+      :host {
+        display: block;
+        --paper-menu-background-color: #fff;
+      }
+
+      .subpage-nav {
+        padding-left: 16px;
+        height: 69px;
+        background: var(--default-primary-color);
+        color: var(--text-primary-color);
+      }
+
+      .schedule-tabs {
+        height: 100%;
+      }
+
+      .day-link {
+        height: auto !important;
+      }
+
+      paper-tab a {
+        color: var(--text-primary-color);
+      }
+
+      .filter-icon {
+        margin-left: 4px;
+      }
+
+      paper-checkbox {
+        padding: 0 24px;
+        position: relative;
+        min-height: 48px;
+      }
+
+      paper-item {
+        padding: 0 24px;
+        cursor: pointer;
+      }
+
+      .info-banner {
+        padding: 16px;
+        background: rgba(236, 239, 241, 0.6);
+        color: rgba(0,0,0,0.54);
+        font-size: 12px;
+      }
+
+      .legend-item {
+        margin-right: 8px;
+      }
+
+      .point {
+        margin-right: 4px;
+        width: 10px;
+        height: 10px;
+        display: inline-block;
+        border-radius: 50%;
+      }
+    </style>
 
     <nav class="subpage-nav" layout="" horizontal="" center="" justified="" relative="">
       <paper-tabs class="schedule-tabs" selected="[[selectedDay]]" attr-for-selected="day">
         <template is="dom-repeat" items="[[schedule]]" as="day">
           <paper-tab day$="day[[_addToValue(index, 1)]]" link="">
-            <a href$="/schedule/day[[_addToValue(index, 1)]]" layout="" center="">
+            <a href$="/schedule/day[[_addToValue(index, 1)]]" class="day-link" layout="" center="">
               [[day.dateReadable]]
             </a>
           </paper-tab>
@@ -46,7 +104,7 @@
     </nav>
 
     <div class="info-banner" layout="" horizontal="" justified="">
-      <div class="legend" layout="" horizontal="">
+      <div class="legend" layout="" horizontal="" wrap="">
         <template is="dom-repeat" items="[[schedule.tags]]" as="tag">
           <div class="legend-item">
             <i class="point" style$="background: [[_getCustomStyleValue(tag)]]"></i>[[tag]]
